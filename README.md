@@ -1,17 +1,29 @@
-# sample_automation
-Sample java, Selenium, Cucumber with TestNG for Domain.com.au 
+# sample_automation - for - https://www.domain.com.au/
 
-Perquisite:
+Java, Selenium, Cucumber with TestNG 
+maven built, eclipse project
+
+Uses abstract class for multi-site deployment
+configurable via properties file
+
+# Perquisite:
 Firefox must be installed at:
-webdriver_firefox_bin=C:\\Program Files\\MozillaFirefox47.0.1\\firefox.exe
+C:\Program Files\MozillaFirefox47.0.1\firefox.exe
 
-Versions: Use Firefox47.0.1 with Selenium 2.53.1
+Versions: Firefox47.0.1 with Selenium 2.53.1
 
-FF should have profile: selenium
-Must have a folder c:\bnzdownloads\log
+FF should have a profile: "selenium"
+Must have a folder c:\bnzdownloads\LOGS
+
+Project folder structure: C:\Projects\sample_automation
+
+# Supports:
+chrome, IE and headless browsers
+
 ------------------------------------------
-Followings will be tested:
+Following will be tested:
 ------------------------------------------
+
 Feature: Access Domain Portal website
 	Verify portal components
 
@@ -31,7 +43,10 @@ Feature: Access Domain Portal website
 		Then As a new user, user signs in as "MEMBER_xxx" and browses available pages
 		Then As an existing user "MEMBER_xxx", user logs in to member portal and browses page
 		Then User closes website
+		
 ------------------------------------------
+
 Dt uploaded - 06-feb-2018 at sydney
 Author: S_A_R_T__M_O_H_A_R_A_N_A
+
 ------------------------------------------
