@@ -1,4 +1,5 @@
-# sample_automation - for - https://www.domain.com.au/
+# sample_automation - for - 
+	https://www.domain.com.au/
 
 Java, Selenium, Cucumber with TestNG 
 maven built, eclipse project
@@ -10,15 +11,15 @@ configurable via properties file
 Firefox must be installed at:
 C:\Program Files\MozillaFirefox47.0.1\firefox.exe
 
-Versions: Firefox47.0.1 with Selenium 2.53.1
+Versions: Firefox 46.x.x or 47.0.1 with Selenium 2.53.1
 
 FF should have a profile: "selenium"
 Must have a folder c:\bnzdownloads\LOGS
 
 Project folder structure: C:\Projects\sample_automation
 
-# Supports:
-chrome, IE and headless browsers
+# Browser support:
+Chrome, FF, IE, Gecko and HTML headless browsers
 
 ------------------------------------------
 Following will be tested:
