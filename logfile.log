@@ -1,0 +1,367 @@
+2018-02-05 17:08:41,220 INFO  [Hooks] -------------(START)------------- 
+2018-02-05 17:12:27,862 INFO  [Hooks] -------------(START)------------- 
+2018-02-05 17:12:27,865 INFO  [Hooks] properties imported (finish) 
+2018-02-05 17:12:27,870 INFO  [Hooks] openBrowser 
+2018-02-05 17:16:16,258 INFO  [Hooks] -------------(START)------------- 
+2018-02-05 17:16:31,768 INFO  [Hooks] properties imported (finish) 
+2018-02-05 17:16:35,084 INFO  [Hooks] openBrowser 
+2018-02-05 17:22:50,846 INFO  [Hooks] -------------(START)------------- 
+2018-02-05 17:22:50,849 INFO  [Hooks] properties imported (finish) 
+2018-02-05 17:22:50,850 INFO  [Hooks] openBrowser 
+2018-02-05 17:22:50,851 INFO  [Hooks] Must use Firefox47.0.1 with Selenium 2.53.1 
+2018-02-05 17:22:50,898 INFO  [Hooks] Using FF profile: "selenium" 
+2018-02-05 17:22:57,735 INFO  [Hooks] New driver instantiated :Firefox 
+2018-02-05 17:22:57,735 INFO  [Hooks] Trying Implicit wait 3000 miliseconds 
+2018-02-05 17:22:57,754 INFO  [Hooks] trying driverwait 30 
+2018-02-05 17:22:57,784 INFO  [Hooks] Called openBrowser 
+2018-02-05 17:22:57,784 INFO  [Hooks] Setup Before Suite -- complete 
+2018-02-05 17:22:59,302 INFO  [Hooks] Browser closed 
+2018-02-05 17:24:53,225 INFO  [Hooks] -------------(START)------------- 
+2018-02-05 17:25:59,962 INFO  [Hooks] properties imported (finish) 
+2018-02-05 17:26:13,397 INFO  [Hooks] openBrowser 
+2018-02-05 17:26:38,658 INFO  [Hooks] Must use Firefox47.0.1 with Selenium 2.53.1 
+2018-02-05 17:26:58,146 INFO  [Hooks] Using FF profile: "selenium" 
+2018-02-05 17:27:18,738 INFO  [Hooks] New driver instantiated :Firefox 
+2018-02-05 17:27:19,505 INFO  [Hooks] Trying Implicit wait 3000 miliseconds 
+2018-02-05 17:27:22,522 INFO  [Hooks] trying driverwait 30 
+2018-02-05 17:27:25,234 INFO  [Hooks] Called openBrowser 
+2018-02-05 17:27:28,306 INFO  [Hooks] Setup Before Suite -- complete 
+2018-02-05 17:28:27,514 INFO  [Hooks] Browser closed 
+2018-02-05 17:36:50,068 INFO  [Hooks] -------------(START)------------- 
+2018-02-05 17:36:50,070 INFO  [Hooks] properties imported (finish) 
+2018-02-05 17:36:50,071 INFO  [Hooks] openBrowser 
+2018-02-05 17:36:50,072 INFO  [Hooks] Must use Firefox47.0.1 with Selenium 2.53.1 
+2018-02-05 17:36:50,101 INFO  [Hooks] Using FF profile: "selenium" 
+2018-02-05 17:36:55,762 INFO  [Hooks] New driver instantiated :Firefox 
+2018-02-05 17:36:55,762 INFO  [Hooks] Trying Implicit wait 3000 miliseconds 
+2018-02-05 17:36:55,780 INFO  [Hooks] trying driverwait 30 
+2018-02-05 17:36:55,812 INFO  [Hooks] Called openBrowser 
+2018-02-05 17:36:55,813 INFO  [Hooks] Setup Before Suite -- complete 
+2018-02-05 17:36:57,555 INFO  [Hooks] Browser closed 
+2018-02-05 17:37:44,160 INFO  [Hooks] -------------(START)------------- 
+2018-02-05 17:37:44,163 INFO  [Hooks] properties imported (finish) 
+2018-02-05 17:37:44,164 INFO  [Hooks] openBrowser 
+2018-02-05 17:37:44,164 INFO  [Hooks] Must use Firefox47.0.1 with Selenium 2.53.1 
+2018-02-05 17:37:44,197 INFO  [Hooks] Using FF profile: "selenium" 
+2018-02-05 17:37:49,729 INFO  [Hooks] New driver instantiated :Firefox 
+2018-02-05 17:37:49,730 INFO  [Hooks] Trying Implicit wait 3000 miliseconds 
+2018-02-05 17:37:49,763 INFO  [Hooks] trying driverwait 30 
+2018-02-05 17:37:49,806 INFO  [Hooks] Called openBrowser 
+2018-02-05 17:37:49,807 INFO  [Hooks] Setup Before Suite -- complete 
+2018-02-05 17:37:51,087 INFO  [Hooks] Browser closed 
+2018-02-05 17:41:02,395 INFO  [Hooks] -------------(START)------------- 
+2018-02-05 17:41:02,398 INFO  [Hooks] properties imported (finish) 
+2018-02-05 17:41:02,399 INFO  [Hooks] openBrowser 
+2018-02-05 17:41:02,399 INFO  [Hooks] Must use Firefox47.0.1 with Selenium 2.53.1 
+2018-02-05 17:41:02,431 INFO  [Hooks] Using FF profile: "selenium" 
+2018-02-05 17:41:08,137 INFO  [Hooks] New driver instantiated :Firefox 
+2018-02-05 17:41:08,137 INFO  [Hooks] Trying Implicit wait 3000 miliseconds 
+2018-02-05 17:41:08,150 INFO  [Hooks] trying driverwait 30 
+2018-02-05 17:41:08,180 INFO  [Hooks] Called openBrowser 
+2018-02-05 17:41:08,180 INFO  [Hooks] Setup Before Suite -- complete 
+2018-02-05 17:41:10,933 INFO  [Hooks] Browser closed 
+2018-02-05 17:51:30,185 INFO  [Hooks] -------------(START)------------- 
+2018-02-05 17:51:30,188 INFO  [Hooks] properties imported (finish) 
+2018-02-05 17:51:30,189 INFO  [Hooks] openBrowser 
+2018-02-05 17:51:30,190 INFO  [Hooks] Must use Firefox47.0.1 with Selenium 2.53.1 
+2018-02-05 17:51:30,232 INFO  [Hooks] Using FF profile: "selenium" 
+2018-02-05 17:51:34,891 INFO  [Hooks] New driver instantiated :Firefox 
+2018-02-05 17:51:34,891 INFO  [Hooks] Trying Implicit wait 3000 miliseconds 
+2018-02-05 17:51:34,913 INFO  [Hooks] trying driverwait 30 
+2018-02-05 17:51:34,955 INFO  [Hooks] Called openBrowser 
+2018-02-05 17:51:34,955 INFO  [Hooks] Setup Before Suite -- complete 
+2018-02-05 17:51:36,490 INFO  [Hooks] Browser closed 
+2018-02-05 17:54:00,971 INFO  [Hooks] -------------(START)------------- 
+2018-02-05 17:54:00,974 INFO  [Hooks] properties imported (finish) 
+2018-02-05 17:54:00,975 INFO  [Hooks] openBrowser 
+2018-02-05 17:54:00,976 INFO  [Hooks] Must use Firefox47.0.1 with Selenium 2.53.1 
+2018-02-05 17:54:01,013 INFO  [Hooks] Using FF profile: "selenium" 
+2018-02-05 17:54:05,712 INFO  [Hooks] New driver instantiated :Firefox 
+2018-02-05 17:54:05,712 INFO  [Hooks] Trying Implicit wait 3000 miliseconds 
+2018-02-05 17:54:05,732 INFO  [Hooks] trying driverwait 30 
+2018-02-05 17:54:05,770 INFO  [Hooks] Called openBrowser 
+2018-02-05 17:54:05,770 INFO  [Hooks] Setup Before Suite -- complete 
+2018-02-05 17:54:07,151 INFO  [Hooks] Browser closed 
+2018-02-05 17:55:54,435 INFO  [Hooks] -------------(START)------------- 
+2018-02-05 17:55:54,437 INFO  [Hooks] properties imported (finish) 
+2018-02-05 17:55:54,438 INFO  [Hooks] openBrowser 
+2018-02-05 17:55:54,439 INFO  [Hooks] Must use Firefox47.0.1 with Selenium 2.53.1 
+2018-02-05 17:55:54,476 INFO  [Hooks] Using FF profile: "selenium" 
+2018-02-05 17:55:58,965 INFO  [Hooks] New driver instantiated :Firefox 
+2018-02-05 17:55:58,965 INFO  [Hooks] Trying Implicit wait 3000 miliseconds 
+2018-02-05 17:55:58,986 INFO  [Hooks] trying driverwait 30 
+2018-02-05 17:55:59,024 INFO  [Hooks] Called openBrowser 
+2018-02-05 17:55:59,024 INFO  [Hooks] Setup Before Suite -- complete 
+2018-02-05 17:56:00,792 INFO  [Hooks] Browser closed 
+2018-02-05 17:57:18,820 INFO  [Hooks] -------------(START)------------- 
+2018-02-05 17:57:18,822 INFO  [Hooks] properties imported (finish) 
+2018-02-05 17:57:18,824 INFO  [Hooks] openBrowser 
+2018-02-05 17:57:18,824 INFO  [Hooks] Must use Firefox47.0.1 with Selenium 2.53.1 
+2018-02-05 17:57:18,860 INFO  [Hooks] Using FF profile: "selenium" 
+2018-02-05 17:57:23,484 INFO  [Hooks] New driver instantiated :Firefox 
+2018-02-05 17:57:23,484 INFO  [Hooks] Trying Implicit wait 3000 miliseconds 
+2018-02-05 17:57:23,515 INFO  [Hooks] trying driverwait 30 
+2018-02-05 17:57:23,553 INFO  [Hooks] Called openBrowser 
+2018-02-05 17:57:23,553 INFO  [Hooks] Setup Before Suite -- complete 
+2018-02-05 17:57:25,335 INFO  [Hooks] Browser closed 
+2018-02-05 18:00:36,340 INFO  [Hooks] -------------(START)------------- 
+2018-02-05 18:00:36,342 INFO  [Hooks] properties imported (finish) 
+2018-02-05 18:00:36,342 INFO  [Hooks] openBrowser 
+2018-02-05 18:00:36,343 INFO  [Hooks] Must use Firefox47.0.1 with Selenium 2.53.1 
+2018-02-05 18:00:36,378 INFO  [Hooks] Using FF profile: "selenium" 
+2018-02-05 18:00:41,424 INFO  [Hooks] New driver instantiated :Firefox 
+2018-02-05 18:00:41,424 INFO  [Hooks] Trying Implicit wait 3000 miliseconds 
+2018-02-05 18:00:41,438 INFO  [Hooks] trying driverwait 30 
+2018-02-05 18:00:41,465 INFO  [Hooks] Called openBrowser 
+2018-02-05 18:00:41,465 INFO  [Hooks] Setup Before Suite -- complete 
+2018-02-05 18:00:43,096 INFO  [Hooks] Browser closed 
+2018-02-05 18:00:50,894 INFO  [Hooks] -------------(START)------------- 
+2018-02-05 18:00:50,895 INFO  [Hooks] properties imported (finish) 
+2018-02-05 18:00:50,895 INFO  [Hooks] openBrowser 
+2018-02-05 18:00:50,896 INFO  [Hooks] Must use Firefox47.0.1 with Selenium 2.53.1 
+2018-02-05 18:00:50,938 INFO  [Hooks] Using FF profile: "selenium" 
+2018-02-05 18:00:56,690 INFO  [Hooks] New driver instantiated :Firefox 
+2018-02-05 18:00:56,690 INFO  [Hooks] Trying Implicit wait 3000 miliseconds 
+2018-02-05 18:00:56,709 INFO  [Hooks] trying driverwait 30 
+2018-02-05 18:00:56,735 INFO  [Hooks] Called openBrowser 
+2018-02-05 18:00:56,735 INFO  [Hooks] Setup Before Suite -- complete 
+2018-02-05 18:00:58,331 INFO  [Hooks] Browser closed 
+2018-02-05 18:07:09,275 INFO  [Hooks] -------------(START)------------- 
+2018-02-05 18:07:09,277 INFO  [Hooks] properties imported (finish) 
+2018-02-05 18:07:09,278 INFO  [Hooks] openBrowser 
+2018-02-05 18:07:09,278 INFO  [Hooks] Must use Firefox47.0.1 with Selenium 2.53.1 
+2018-02-05 18:07:09,329 INFO  [Hooks] Using FF profile: "selenium" 
+2018-02-05 18:07:16,548 INFO  [Hooks] New driver instantiated :Firefox 
+2018-02-05 18:07:16,548 INFO  [Hooks] Trying Implicit wait 3000 miliseconds 
+2018-02-05 18:07:16,564 INFO  [Hooks] trying driverwait 30 
+2018-02-05 18:07:16,592 INFO  [Hooks] Called openBrowser 
+2018-02-05 18:07:16,592 INFO  [Hooks] Setup Before Suite -- complete 
+2018-02-05 18:07:55,628 INFO  [Log] admin_Portal_website_is_opened 
+2018-02-05 18:07:58,766 INFO  [Hooks] PROPERTY_NOT_EXIST: Hooks.clientadminPortalURL 
+2018-02-05 18:08:04,656 INFO  [Log] admin_logs_in_to_portal 
+2018-02-05 18:08:07,033 INFO  [Log] admin_logs_out_from_portal 
+2018-02-05 18:09:59,579 INFO  [Hooks] -------------(START)------------- 
+2018-02-05 18:09:59,582 INFO  [Hooks] properties imported (finish) 
+2018-02-05 18:09:59,582 INFO  [Hooks] openBrowser 
+2018-02-05 18:09:59,583 INFO  [Hooks] Must use Firefox47.0.1 with Selenium 2.53.1 
+2018-02-05 18:09:59,637 INFO  [Hooks] Using FF profile: "selenium" 
+2018-02-05 18:10:04,983 INFO  [Hooks] New driver instantiated :Firefox 
+2018-02-05 18:10:04,983 INFO  [Hooks] Trying Implicit wait 3000 miliseconds 
+2018-02-05 18:10:05,013 INFO  [Hooks] trying driverwait 30 
+2018-02-05 18:10:05,050 INFO  [Hooks] Called openBrowser 
+2018-02-05 18:10:05,050 INFO  [Hooks] Setup Before Suite -- complete 
+2018-02-05 18:10:05,760 INFO  [Log] admin_Portal_website_is_opened 
+2018-02-05 18:10:29,605 INFO  [Log] admin_logs_in_to_portal 
+2018-02-05 18:10:38,499 INFO  [Log] admin_logs_out_from_portal 
+2018-02-05 18:16:31,177 INFO  [Hooks] -------------(START)------------- 
+2018-02-05 18:16:31,179 INFO  [Hooks] properties imported (finish) 
+2018-02-05 18:16:31,179 INFO  [Hooks] openBrowser 
+2018-02-05 18:16:31,180 INFO  [Hooks] Must use Firefox47.0.1 with Selenium 2.53.1 
+2018-02-05 18:16:31,224 INFO  [Hooks] Using FF profile: "selenium" 
+2018-02-05 18:16:39,238 INFO  [Hooks] New driver instantiated :Firefox 
+2018-02-05 18:16:39,238 INFO  [Hooks] Trying Implicit wait 3000 miliseconds 
+2018-02-05 18:16:39,256 INFO  [Hooks] trying driverwait 30 
+2018-02-05 18:16:39,284 INFO  [Hooks] Called openBrowser 
+2018-02-05 18:16:39,284 INFO  [Hooks] Setup Before Suite -- complete 
+2018-02-05 18:16:39,984 INFO  [Log] admin_Portal_website_is_opened 
+2018-02-05 18:16:40,497 INFO  [Log] admin_logs_in_to_portal 
+2018-02-05 18:18:31,289 INFO  [Log] admin_logs_out_from_portal 
+2018-02-05 18:18:33,528 INFO  [Hooks] Browser closed 
+2018-02-05 18:54:30,644 INFO  [Hooks] -------------(START)------------- 
+2018-02-05 18:54:30,646 INFO  [Hooks] properties imported (finish) 
+2018-02-05 18:54:30,647 INFO  [Hooks] openBrowser 
+2018-02-05 18:54:30,647 INFO  [Hooks] Must use Firefox47.0.1 with Selenium 2.53.1 
+2018-02-05 18:54:30,682 INFO  [Hooks] Using FF profile: "selenium" 
+2018-02-05 18:54:35,191 INFO  [Hooks] New driver instantiated :Firefox 
+2018-02-05 18:54:35,191 INFO  [Hooks] Trying Implicit wait 3000 miliseconds 
+2018-02-05 18:54:35,224 INFO  [Hooks] trying driverwait 30 
+2018-02-05 18:54:35,261 INFO  [Hooks] Called openBrowser 
+2018-02-05 18:54:35,261 INFO  [Hooks] Setup Before Suite -- complete 
+2018-02-05 18:54:37,357 INFO  [Hooks] Browser closed 
+2018-02-05 23:07:48,207 INFO  [Hooks] -------------(START)------------- 
+2018-02-05 23:07:48,210 INFO  [Hooks] properties imported (finish) 
+2018-02-05 23:07:48,210 INFO  [Hooks] openBrowser 
+2018-02-05 23:07:48,211 INFO  [Hooks] Must use Firefox47.0.1 with Selenium 2.53.1 
+2018-02-05 23:07:48,254 INFO  [Hooks] Using FF profile: "selenium" 
+2018-02-05 23:07:55,341 INFO  [Hooks] New driver instantiated :Firefox 
+2018-02-05 23:07:55,341 INFO  [Hooks] Trying Implicit wait 3000 miliseconds 
+2018-02-05 23:07:55,355 INFO  [Hooks] trying driverwait 30 
+2018-02-05 23:07:55,380 INFO  [Hooks] Called openBrowser 
+2018-02-05 23:07:55,380 INFO  [Hooks] Setup Before Suite -- complete 
+2018-02-05 23:07:55,910 INFO  [Log] domain_Portal_website_is_opened 
+2018-02-05 23:07:56,258 INFO  [Log] admin_navigates_to_Dashboard 
+2018-02-05 23:10:22,212 INFO  [Hooks] -------------(START)------------- 
+2018-02-05 23:10:22,214 INFO  [Hooks] properties imported (finish) 
+2018-02-05 23:10:22,215 INFO  [Hooks] openBrowser 
+2018-02-05 23:10:22,215 INFO  [Hooks] Must use Firefox47.0.1 with Selenium 2.53.1 
+2018-02-05 23:10:22,252 INFO  [Hooks] Using FF profile: "selenium" 
+2018-02-05 23:10:28,427 INFO  [Hooks] New driver instantiated :Firefox 
+2018-02-05 23:10:28,427 INFO  [Hooks] Trying Implicit wait 3000 miliseconds 
+2018-02-05 23:10:28,442 INFO  [Hooks] trying driverwait 30 
+2018-02-05 23:10:28,468 INFO  [Hooks] Called openBrowser 
+2018-02-05 23:10:28,468 INFO  [Hooks] Setup Before Suite -- complete 
+2018-02-05 23:10:29,032 INFO  [Log] domain_Portal_website_is_opened 
+2018-02-05 23:11:10,155 ERROR [Hooks] Fail Case... 
+2018-02-05 23:11:11,183 INFO  [Log] domain_Portal_website_is_opened 
+2018-02-05 23:11:12,217 ERROR [Hooks] Fail Case... 
+2018-02-05 23:11:13,244 INFO  [Log] domain_Portal_website_is_opened 
+2018-02-05 23:12:49,869 INFO  [Hooks] -------------(START)------------- 
+2018-02-05 23:12:49,875 INFO  [Hooks] properties imported (finish) 
+2018-02-05 23:12:49,875 INFO  [Hooks] openBrowser 
+2018-02-05 23:12:49,876 INFO  [Hooks] Must use Firefox47.0.1 with Selenium 2.53.1 
+2018-02-05 23:12:49,918 INFO  [Hooks] Using FF profile: "selenium" 
+2018-02-05 23:12:56,194 INFO  [Hooks] New driver instantiated :Firefox 
+2018-02-05 23:12:56,194 INFO  [Hooks] Trying Implicit wait 3000 miliseconds 
+2018-02-05 23:12:56,211 INFO  [Hooks] trying driverwait 30 
+2018-02-05 23:12:56,243 INFO  [Hooks] Called openBrowser 
+2018-02-05 23:12:56,243 INFO  [Hooks] Setup Before Suite -- complete 
+2018-02-05 23:12:56,819 INFO  [Log] domain_Portal_website_is_opened 
+2018-02-05 23:13:23,519 ERROR [Hooks] Fail Case... 
+2018-02-05 23:14:57,436 INFO  [Hooks] -------------(START)------------- 
+2018-02-05 23:14:57,438 INFO  [Hooks] properties imported (finish) 
+2018-02-05 23:14:57,439 INFO  [Hooks] openBrowser 
+2018-02-05 23:15:00,657 INFO  [Hooks] New driver instantiated :Chrome 
+2018-02-05 23:15:00,657 INFO  [Hooks] Trying Implicit wait 3000 miliseconds 
+2018-02-05 23:15:00,667 INFO  [Hooks] trying driverwait 30 
+2018-02-05 23:15:12,230 INFO  [Hooks] Browser closed 
+2018-02-05 23:17:38,460 INFO  [Hooks] -------------(START)------------- 
+2018-02-05 23:17:38,462 INFO  [Hooks] properties imported (finish) 
+2018-02-05 23:17:38,462 INFO  [Hooks] openBrowser 
+2018-02-05 23:17:38,463 INFO  [Hooks] Must use Firefox47.0.1 with Selenium 2.53.1 
+2018-02-05 23:17:38,498 INFO  [Hooks] Using FF profile: "selenium" 
+2018-02-05 23:17:44,087 INFO  [Hooks] New driver instantiated :Firefox 
+2018-02-05 23:17:44,087 INFO  [Hooks] Trying Implicit wait 3000 miliseconds 
+2018-02-05 23:17:44,100 INFO  [Hooks] trying driverwait 30 
+2018-02-05 23:17:44,130 INFO  [Hooks] Called openBrowser 
+2018-02-05 23:17:44,130 INFO  [Hooks] Setup Before Suite -- complete 
+2018-02-05 23:17:44,711 INFO  [Log] domain_Portal_website_is_opened 
+2018-02-05 23:18:52,698 INFO  [Hooks] -------------(START)------------- 
+2018-02-05 23:18:52,700 INFO  [Hooks] properties imported (finish) 
+2018-02-05 23:18:52,701 INFO  [Hooks] openBrowser 
+2018-02-05 23:18:52,701 INFO  [Hooks] Must use Firefox47.0.1 with Selenium 2.53.1 
+2018-02-05 23:18:52,736 INFO  [Hooks] Using FF profile: "selenium" 
+2018-02-05 23:18:58,914 INFO  [Hooks] New driver instantiated :Firefox 
+2018-02-05 23:18:58,914 INFO  [Hooks] Trying Implicit wait 3000 miliseconds 
+2018-02-05 23:18:58,928 INFO  [Hooks] trying driverwait 30 
+2018-02-05 23:18:58,956 INFO  [Hooks] Called openBrowser 
+2018-02-05 23:18:58,956 INFO  [Hooks] Setup Before Suite -- complete 
+2018-02-05 23:18:59,521 INFO  [Log] domain_Portal_website_is_opened 
+2018-02-05 23:23:05,780 INFO  [Hooks] -------------(START)------------- 
+2018-02-05 23:23:05,782 INFO  [Hooks] properties imported (finish) 
+2018-02-05 23:23:05,783 INFO  [Hooks] openBrowser 
+2018-02-05 23:23:05,783 INFO  [Hooks] Must use Firefox47.0.1 with Selenium 2.53.1 
+2018-02-05 23:23:05,824 INFO  [Hooks] Using FF profile: "selenium" 
+2018-02-05 23:23:11,517 INFO  [Hooks] New driver instantiated :Firefox 
+2018-02-05 23:23:11,517 INFO  [Hooks] Trying Implicit wait 3000 miliseconds 
+2018-02-05 23:23:11,530 INFO  [Hooks] trying driverwait 30 
+2018-02-05 23:23:11,557 INFO  [Hooks] Called openBrowser 
+2018-02-05 23:23:11,557 INFO  [Hooks] Setup Before Suite -- complete 
+2018-02-05 23:23:12,145 INFO  [Log] domain_Portal_website_is_opened 
+2018-02-05 23:23:45,895 INFO  [Log] admin_navigates_to_Dashboard 
+2018-02-05 23:24:58,764 INFO  [Hooks] -------------(START)------------- 
+2018-02-05 23:24:58,766 INFO  [Hooks] properties imported (finish) 
+2018-02-05 23:24:58,767 INFO  [Hooks] openBrowser 
+2018-02-05 23:24:58,767 INFO  [Hooks] Must use Firefox47.0.1 with Selenium 2.53.1 
+2018-02-05 23:24:58,801 INFO  [Hooks] Using FF profile: "selenium" 
+2018-02-05 23:25:04,302 INFO  [Hooks] New driver instantiated :Firefox 
+2018-02-05 23:25:04,302 INFO  [Hooks] Trying Implicit wait 3000 miliseconds 
+2018-02-05 23:25:04,319 INFO  [Hooks] trying driverwait 30 
+2018-02-05 23:25:04,352 INFO  [Hooks] Called openBrowser 
+2018-02-05 23:25:04,352 INFO  [Hooks] Setup Before Suite -- complete 
+2018-02-05 23:25:04,981 INFO  [Log] domain_Portal_website_is_opened 
+2018-02-05 23:25:27,024 INFO  [Log] admin_navigates_to_Dashboard 
+2018-02-05 23:38:46,504 INFO  [Hooks] -------------(START)------------- 
+2018-02-05 23:38:46,519 INFO  [Hooks] properties imported (finish) 
+2018-02-05 23:38:46,520 INFO  [Hooks] openBrowser 
+2018-02-05 23:38:46,520 INFO  [Hooks] Must use Firefox47.0.1 with Selenium 2.53.1 
+2018-02-05 23:38:46,552 INFO  [Hooks] Using FF profile: "selenium" 
+2018-02-05 23:38:52,272 INFO  [Hooks] New driver instantiated :Firefox 
+2018-02-05 23:38:52,272 INFO  [Hooks] Trying Implicit wait 3000 miliseconds 
+2018-02-05 23:38:52,285 INFO  [Hooks] trying driverwait 30 
+2018-02-05 23:38:52,308 INFO  [Hooks] Called openBrowser 
+2018-02-05 23:38:52,308 INFO  [Hooks] Setup Before Suite -- complete 
+2018-02-05 23:38:52,873 INFO  [Log] domain_Portal_website_is_opened 
+2018-02-05 23:39:06,661 INFO  [Log] admin_navigates_to_Dashboard 
+2018-02-05 23:43:51,646 INFO  [Hooks] -------------(START)------------- 
+2018-02-05 23:43:51,652 INFO  [Hooks] properties imported (finish) 
+2018-02-05 23:43:51,652 INFO  [Hooks] openBrowser 
+2018-02-05 23:43:51,652 INFO  [Hooks] Must use Firefox47.0.1 with Selenium 2.53.1 
+2018-02-05 23:43:51,683 INFO  [Hooks] Using FF profile: "selenium" 
+2018-02-05 23:43:56,502 INFO  [Hooks] New driver instantiated :Firefox 
+2018-02-05 23:43:56,502 INFO  [Hooks] Trying Implicit wait 3000 miliseconds 
+2018-02-05 23:43:56,516 INFO  [Hooks] trying driverwait 30 
+2018-02-05 23:43:56,591 INFO  [Hooks] Called openBrowser 
+2018-02-05 23:43:56,591 INFO  [Hooks] Setup Before Suite -- complete 
+2018-02-05 23:43:57,169 INFO  [Log] domain_Portal_website_is_opened 
+2018-02-05 23:44:08,319 INFO  [Log] admin_navigates_to_Dashboard 
+2018-02-05 23:46:16,509 INFO  [Hooks] -------------(START)------------- 
+2018-02-05 23:46:16,525 INFO  [Hooks] properties imported (finish) 
+2018-02-05 23:46:16,525 INFO  [Hooks] openBrowser 
+2018-02-05 23:46:16,525 INFO  [Hooks] Must use Firefox47.0.1 with Selenium 2.53.1 
+2018-02-05 23:46:16,556 INFO  [Hooks] Using FF profile: "selenium" 
+2018-02-05 23:46:21,535 INFO  [Hooks] New driver instantiated :Firefox 
+2018-02-05 23:46:21,535 INFO  [Hooks] Trying Implicit wait 3000 miliseconds 
+2018-02-05 23:46:21,550 INFO  [Hooks] trying driverwait 30 
+2018-02-05 23:46:21,581 INFO  [Hooks] Called openBrowser 
+2018-02-05 23:46:21,581 INFO  [Hooks] Setup Before Suite -- complete 
+2018-02-05 23:46:22,223 INFO  [Log] domain_Portal_website_is_opened 
+2018-02-05 23:46:30,367 INFO  [Log] admin_navigates_to_Dashboard 
+2018-02-05 23:50:04,376 INFO  [Hooks] -------------(START)------------- 
+2018-02-05 23:50:04,389 INFO  [Hooks] properties imported (finish) 
+2018-02-05 23:50:04,389 INFO  [Hooks] openBrowser 
+2018-02-05 23:50:04,389 INFO  [Hooks] Must use Firefox47.0.1 with Selenium 2.53.1 
+2018-02-05 23:50:04,424 INFO  [Hooks] Using FF profile: "selenium" 
+2018-02-05 23:50:09,330 INFO  [Hooks] New driver instantiated :Firefox 
+2018-02-05 23:50:09,330 INFO  [Hooks] Trying Implicit wait 3000 miliseconds 
+2018-02-05 23:50:09,343 INFO  [Hooks] trying driverwait 30 
+2018-02-05 23:50:09,374 INFO  [Hooks] Called openBrowser 
+2018-02-05 23:50:09,374 INFO  [Hooks] Setup Before Suite -- complete 
+2018-02-05 23:50:09,952 INFO  [Log] domain_Portal_website_is_opened 
+2018-02-05 23:50:20,321 INFO  [Log] admin_navigates_to_Dashboard 
+2018-02-05 23:50:58,140 INFO  [Hooks] -------------(START)------------- 
+2018-02-05 23:50:58,152 INFO  [Hooks] properties imported (finish) 
+2018-02-05 23:50:58,152 INFO  [Hooks] openBrowser 
+2018-02-05 23:50:58,152 INFO  [Hooks] Must use Firefox47.0.1 with Selenium 2.53.1 
+2018-02-05 23:50:58,168 INFO  [Hooks] Using FF profile: "selenium" 
+2018-02-05 23:51:04,003 INFO  [Hooks] New driver instantiated :Firefox 
+2018-02-05 23:51:04,003 INFO  [Hooks] Trying Implicit wait 3000 miliseconds 
+2018-02-05 23:51:04,015 INFO  [Hooks] trying driverwait 30 
+2018-02-05 23:51:04,041 INFO  [Hooks] Called openBrowser 
+2018-02-05 23:51:04,042 INFO  [Hooks] Setup Before Suite -- complete 
+2018-02-05 23:51:04,519 INFO  [Log] domain_Portal_website_is_opened 
+2018-02-05 23:52:16,889 ERROR [Hooks] Fail Case... 
+2018-02-05 23:52:17,928 INFO  [Log] domain_Portal_website_is_opened 
+2018-02-05 23:52:18,967 ERROR [Hooks] Fail Case... 
+2018-02-05 23:52:20,007 INFO  [Log] domain_Portal_website_is_opened 
+2018-02-05 23:52:21,036 ERROR [Hooks] Fail Case... 
+2018-02-05 23:52:35,382 INFO  [Hooks] -------------(START)------------- 
+2018-02-05 23:52:35,395 INFO  [Hooks] properties imported (finish) 
+2018-02-05 23:52:35,395 INFO  [Hooks] openBrowser 
+2018-02-05 23:52:35,396 INFO  [Hooks] Must use Firefox47.0.1 with Selenium 2.53.1 
+2018-02-05 23:52:35,419 INFO  [Hooks] Using FF profile: "selenium" 
+2018-02-05 23:52:40,523 INFO  [Hooks] New driver instantiated :Firefox 
+2018-02-05 23:52:40,523 INFO  [Hooks] Trying Implicit wait 3000 miliseconds 
+2018-02-05 23:52:40,555 INFO  [Hooks] trying driverwait 30 
+2018-02-05 23:52:40,584 INFO  [Hooks] Called openBrowser 
+2018-02-05 23:52:40,584 INFO  [Hooks] Setup Before Suite -- complete 
+2018-02-05 23:52:41,152 INFO  [Log] domain_Portal_website_is_opened 
+2018-02-05 23:54:41,809 INFO  [Log] admin_navigates_to_Dashboard 
+2018-02-05 23:56:17,866 INFO  [Hooks] -------------(START)------------- 
+2018-02-05 23:56:17,868 INFO  [Hooks] properties imported (finish) 
+2018-02-05 23:56:17,868 INFO  [Hooks] openBrowser 
+2018-02-05 23:56:20,758 INFO  [Hooks] New driver instantiated :Chrome 
+2018-02-05 23:56:20,758 INFO  [Hooks] Trying Implicit wait 3000 miliseconds 
+2018-02-05 23:56:20,765 INFO  [Hooks] trying driverwait 30 
+2018-02-05 23:56:32,162 INFO  [Hooks] Browser closed 
+2018-02-05 23:59:07,436 INFO  [Hooks] -------------(START)------------- 
+2018-02-05 23:59:07,453 INFO  [Hooks] properties imported (finish) 
+2018-02-05 23:59:07,453 INFO  [Hooks] openBrowser 
+2018-02-05 23:59:07,453 INFO  [Hooks] Must use Firefox47.0.1 with Selenium 2.53.1 
+2018-02-05 23:59:07,485 INFO  [Hooks] Using FF profile: "selenium" 
+2018-02-05 23:59:12,412 INFO  [Hooks] New driver instantiated :Firefox 
+2018-02-05 23:59:12,412 INFO  [Hooks] Trying Implicit wait 3000 miliseconds 
+2018-02-05 23:59:12,425 INFO  [Hooks] trying driverwait 30 
+2018-02-05 23:59:12,453 INFO  [Hooks] Called openBrowser 
+2018-02-05 23:59:12,453 INFO  [Hooks] Setup Before Suite -- complete 
+2018-02-05 23:59:13,029 INFO  [Log] domain_Portal_website_is_opened 
+2018-02-05 23:59:26,037 INFO  [Log] admin_navigates_to_Dashboard 
