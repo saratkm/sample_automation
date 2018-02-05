@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]">
+  <test name="TestPortal(failed)">
+    <classes>
+      <class name="step_definitions.Hooks">
+        <methods>
+          <include name="setupAfterSuite"/>
+          <include name="setupBeforeSuite"/>
+        </methods>
+      </class> <!-- step_definitions.Hooks -->
+      <class name="step_definitions.RunCukesTest">
+        <methods>
+          <include name="feature"/>
+        </methods>
+      </class> <!-- step_definitions.RunCukesTest -->
+    </classes>
+  </test> <!-- TestPortal(failed) -->
+</suite> <!-- Failed suite [Suite] -->
