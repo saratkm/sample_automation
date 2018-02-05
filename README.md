@@ -1,5 +1,5 @@
-# sample_automation - for - 
-	https://www.domain.com.au/
+# sample_automation
+	for https://www.domain.com.au/
 
 Java, Selenium, Cucumber with TestNG 
 maven built, eclipse project
