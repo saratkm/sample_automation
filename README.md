@@ -16,6 +16,9 @@ Versions: Firefox 46.x.x or 47.0.1 with Selenium 2.53.1
 FF should have a profile: "selenium"
 Must have a folder c:\bnzdownloads\LOGS
 
+All Browser drivers (IE, FF, chrome and HTML unit) should be
+in the folder c:\WebDriver and it should be accessible via PATH variable
+
 Project folder structure: C:\Projects\sample_automation
 
 # Browser support:
