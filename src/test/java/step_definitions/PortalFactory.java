@@ -6,12 +6,10 @@ public class PortalFactory {
 			return new DomainSiteAU();
 		}
 		if (websiteCountry.contains("NZ")){
-			//return new DomainSiteNZ();
-			return new DomainSiteAU();
+			return new DomainSiteNZ();
 		}
-		if (websiteCountry.contains("CN")){
-			//return new DomainSiteCN();
-			return new DomainSiteAU();
+		if (websiteCountry.contains("US")){
+			return new DomainSiteUS();
 		}
 		return null;
 	}

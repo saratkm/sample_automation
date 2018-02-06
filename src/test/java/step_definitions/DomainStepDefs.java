@@ -23,7 +23,6 @@ import helpers.Log;
 
 
 public class DomainStepDefs {
-	final String clientPrefix="ENGLISH";
     public WebDriver driver;
     public Properties domainPortalProp;
     private String baseUrl;
@@ -104,16 +103,5 @@ public class DomainStepDefs {
     public boolean as_an_existing_user_user_logs_in_to_member_portal_and_browses_page(String memberID) throws Throwable {
         return true;
     }
-   	
-   	
-   	
-   	
-   	
-   	
-   	
-   	
-   	
-   	
-    
 }
 

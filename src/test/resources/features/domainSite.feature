@@ -5,14 +5,14 @@ Feature: Access Domain Portal website
 	Scenario: As an user, I verify domain website dashboard
 		Given User navigates to Domain Portal website "https://www.domain.com.au/"
 		Then User navigates dashboard features
-		Then User closes website
+		#Then User closes website
 
 	@selectVariousTabs
 	Scenario: As an user, I verify domain''s each TAB content
 		Given User navigates to Domain Portal website ""
 		And User clicks first tab
 		Then verifies contents of that page and goes to next page for all tabs
-		Then User closes website
+		#Then User closes website
 		
 	@userSignInAsMemeber
 	Scenario: As an user, I SignIn

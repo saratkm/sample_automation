@@ -4,7 +4,6 @@ import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.Properties;
 import java.util.Random;
-
 import org.apache.log4j.xml.DOMConfigurator;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
@@ -12,21 +11,14 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
-
-import cucumber.api.Scenario;
-import cucumber.api.java.en.Given;
-import cucumber.api.java.en.Then;
-import cucumber.api.java.en.When;
 import helpers.Log;
 
 
 public class DomainSiteAU extends PortalAutomation {
-	final String clientPrefix="BNZ";
     public WebDriver driver;
     public Properties adminPortalProperties;
     private String baseUrl;
     public WebDriverWait driverWait;
-    private Scenario scenario;
     
     Random randGen;
     
@@ -89,32 +81,99 @@ public class DomainSiteAU extends PortalAutomation {
 		}
     	boolean pass=true;
     	String rslt="";
+    
+    	class TabAction{
+    		String tabName;
+    		boolean newPg;
+    		By byType;
+    		String subItems;
+    		String subBy;
+    		public TabAction(String name, boolean np, By by, String itm, String subBy) {
+                this.tabName=name;
+                this.newPg=np;
+                this.byType=by;
+                this.subItems=itm;
+                this.subBy=subBy;
+            }
+    	};
     	
+    	TabAction[] ta =   new TabAction[] { 	
+    			new TabAction("Buy",			false, By.linkText("Buy"),				"",null), 
+    			new TabAction("Rent",			false, By.linkText("Rent"),				"",null),
+    			new TabAction("New homes",		false, By.linkText("New homes"),		"",null),
+    			new TabAction("Sold",			false, By.linkText("Sold"),				"",null),
+    			new TabAction("Commercial",		true,  By.linkText("Commercial"),		"Property,Business for Sale+,Franchise",		"linkText"),
+    			new TabAction("News",			true,  By.linkText("News"),				"Advice,Living,Money & Markets,Video",			"linkText"),
+    			new TabAction("Agents",			false, By.linkText("Agents"),			"",null),
+    			new TabAction("More",			false, By.linkText("More"),			"Share,Home Price Guide,Auction Results,Suburb Profiles,Home Loans,Place an ad",	"linkText"),
+    			//new TabAction("Sign in",		false, By.xpath(".//*[@id='homepage']/div/div/div[1]/header/div[2]/div/nav/div/div[3]/div/a[1]"),			"",null),
+    			//new TabAction("Sign up",		false, By.xpath(".//*[@id='homepage']/div/div/div[1]/header/div[2]/div/nav/div/div[3]/div/a[2]"),			"",null),
+    			new TabAction("savedsearch",	false, By.cssSelector("button.member-dropdown__toggle-savedsearch"),										"",null),
+    			new TabAction("shortlist",		false, By.cssSelector("button.member-dropdown__toggle-shortlist"),											"",null)
+    	};
     	
-    	String tabList[] = {"Buy","Rent","New homes", "Commercial", "News", 
-    						"Home", "Advice", "Agents", "More", "Share", "Sign in", "Sign up", "Buy"};
-        driver.findElement(By.linkText("Rent")).click();
-        driver.findElement(By.linkText("Commercial")).click();
-        driver.findElement(By.linkText("Sold")).click();
-        driver.findElement(By.linkText("Sold")).click();
-        driver.findElement(By.linkText("Agents")).click();
-        
-    	for (int i=0;i<tabList.length; i++){
-    		//if (driver.findElements(By.linkText(tabList[i])).size()>0){
-    			driver.findElement(By.linkText(tabList[i])).click();
-    			Thread.sleep(LARGE_SEC);
-    			driver.navigate().back();
-    		//} else {
-    		//	LogToReport(1, "ERROR: Tab / Link NOT found - "+tabList[i]);
-    		//	pass=false;
-    		//	rslt+=tabList[i]+" ";
-    		//}
-    	}
+    
+    	int j=0;
+    	for (int i=0;i<ta.length; i++){
+    		LogToReport(1,"-- "+ta[i].tabName);
+    		
+    		driver.findElement(ta[i].byType).click();
+    		Thread.sleep(LARGE_SEC);
+    		j=ta[i].subItems.length();
+    		rslt += ta[i].tabName + ",";
+    		
+			if (j<=0){
+				if (ta[i].newPg){
+					driver.navigate().back();
+				}
+				continue;
+			}
+			
+			By byObj=null; 
+			String zSub[] =ta[i].subItems.split(",");
+			
+			for (int n=0;n<zSub.length;n++ ){
+				boolean skip2 = zSub[n].endsWith("+");
+				String subItem = skip2?zSub[n].substring(0, zSub[n].length()-1):zSub[n];
+				byObj = ta[i].subBy.startsWith("linkText") 	? By.linkText(subItem)		: byObj;
+				byObj = ta[i].subBy.startsWith("xpath")    	? By.xpath(subItem)			: byObj;
+				byObj = ta[i].subBy.startsWith("css")    	? By.cssSelector(subItem)	: byObj;
+				
+				if (byObj!=null){	
+					LogToReport(1,"---- "+subItem);
+					if (driver.findElements(byObj).size()>0){
+						driver.findElement(byObj).click();
+						Thread.sleep(LARGE_SEC);
+					}
+					
+					rslt += "+"+subItem + ",";
+					driver.navigate().back();
+					
+					if (skip2){
+						driver.navigate().back();
+					}
+					
+					Thread.sleep(LARGE_SEC);
+					if (driver.findElements(ta[i].byType).size()>0){
+						driver.findElement(ta[i].byType).click();
+					} else {
+						driver.navigate().to(baseUrl);
+						Thread.sleep(SHORT_SEC);
+					}
+				}
+			}//for n=0
+			
+			//driver.get(baseUrl);
+			//Thread.sleep(SHORT_SEC);
+
+    	}//for i=0
+    	
+    	LogToReport(1,"End of TAB selections..");
     	return rslt;
     }
     
+    
 	public boolean user_closes_website() throws InterruptedException {
-
 		if (Hooks.showFKtName){
 			class Local {};
 			Log.info(Local.class.getEnclosingMethod().getName());
@@ -139,7 +198,6 @@ public class DomainSiteAU extends PortalAutomation {
     		System.err.println(msg);
     	}
     }
-
 }
 
 //==========================(end)===========================//
